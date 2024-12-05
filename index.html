@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI E-Commerce App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI E-Commerce Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="#designs">AI-Generated Designs</a></li>
+        <li><a href="#templates">Customizable Templates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="designs">
+      <h2>AI-Generated Designs</h2>
+      <div class="grid">
+        <div class="item">
+          <img src="images/design1.jpg" alt="Design 1">
+          <button onclick="downloadFile('images/design1.jpg')">Download</button>
+        </div>
+        <div class="item">
+          <img src="images/design2.jpg" alt="Design 2">
+          <button onclick="downloadFile('images/design2.jpg')">Download</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="templates">
+      <h2>Customizable Templates</h2>
+      <div class="grid">
+        <div class="item">
+          <img src="images/template1.jpg" alt="Template 1">
+          <button onclick="downloadFile('templates/template1.pdf')">Download</button>
+        </div>
+        <div class="item">
+          <img src="images/template2.jpg" alt="Template 2">
+          <button onclick="downloadFile('templates/template2.pdf')">Download</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by AI | © 2024</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
